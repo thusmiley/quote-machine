@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+*
+    transition: all 1s 
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+
+.btn
+    padding: 10px 20px
+    cursor: pointer
+    font-size: 0.85em
+    color: white
+
+.btn:hover
+    transition: 1s
+    color: white
+    opacity: 0.6
+
+.btn:focus, .btn:active
+    outline: none
+    box-shadow: none
+
+.container
+    font-family: 'Raleway', sans-serif
+    font-weight: bold
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-items: center
+    position: relative
+    height: 100vh
+
+.box
+    background-color: #fff
+    padding: 40px 50px
+    border-radius: 3px
+    width: 650px
+
+.quote-text
+    font-size: 1.75em
+    text-align: center
+
+.author
+    text-align: right
+    font-size: 1em
+
+.row
+    display: block
+    margin-top: 20px
+
+.twitter, .tumblr
+    float: left
+    width: 80px
+    margin-right: 5px
+
+.new-quote
+    float: right
+    width: 120px
+
+@media screen and (max-width: 700px)
+    
+    .btn
+        padding: 8px 8px
+        cursor: pointer
+        font-size: 0.8em
+        color: white
+        margin-top: 20px
+
+    .box
+        padding: 30px 20px 20px 30px
+        width: 343px
+
+    .quote-text
+        font-size: 1em
+        text-align: center
+
+    .author
+        text-align: center
+        font-size: 0.8em
+
+    .row
+        display: inline
+        margin-top: 20px
+
+    .twitter, .tumblr
+        float: left
+        width: 60px
+        margin-right: 5px
+
+    .new-quote
+        float: right
+        width: 90px
